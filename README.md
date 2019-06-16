@@ -34,3 +34,8 @@ To deploy war file use maven build check: clean, install and run the application
 
 To access application go to address: http://localhost:8080/One-to-One-bi-1.0-SNAPSHOT/InstructorUIServlet
 
+
+There are three basic operations that project does in this order:
+- Deletes last record of InstructorDetails and Instructor that is associate to, if there is one;
+- Adds new entity Instructor and InstructorDetail to database;
+- Shows actual database in the table;
